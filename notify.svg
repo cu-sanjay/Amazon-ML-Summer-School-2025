@@ -1,27 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48"> 
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48">
   <defs>
     <clipPath id="tickerclip">
       <rect x="65" y="0" width="705" height="48"/>
     </clipPath>
   </defs>
 
-  <rect width="800" height="48" rx="8" fill="#140a00"/>
+  <rect width="800" height="48" rx="8" fill="#071407"/>
 
-  <rect x="1" y="1" width="798" height="46" rx="7"
-        fill="none" stroke="#ff9900" stroke-width="2"
-        opacity="0.7"/>
+  <rect
+    x="1"
+    y="1"
+    width="798"
+    height="46"
+    rx="7"
+    fill="none"
+    stroke="#22c55e"
+    stroke-width="2"
+    opacity="0.7"/>
 
-  <rect x="3" y="3" width="794" height="42" rx="6"
-        fill="none" stroke="#4d2e00" stroke-width="1" opacity="0.9"/>
+  <rect
+    x="3"
+    y="3"
+    width="794"
+    height="42"
+    rx="6"
+    fill="none"
+    stroke="#14532d"
+    stroke-width="1"
+    opacity="0.9"/>
 
-  <circle cx="17" cy="24" r="6" fill="#ffaa00">
+  <circle cx="17" cy="24" r="6" fill="#22c55e">
     <animate attributeName="opacity" values="1;0.12;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="783" cy="24" r="6" fill="#ffaa00">
+
+  <circle cx="783" cy="24" r="6" fill="#22c55e">
     <animate attributeName="opacity" values="0.12;1;0.12" dur="1.2s" repeatCount="indefinite"/>
   </circle>
 
-  <g transform="translate(33, 15) scale(1.15)" fill="#ffaa00">
+  <g transform="translate(33,15) scale(1.15)" fill="#22c55e">
     <path d="m 3 0 c -1.660156 0 -3 1.339844 -3 3 v 7 c 0 1.660156 1.339844 3 3 3 h 10 c 1.660156 0 3 -1.339844 3 -3 v -7 c 0 -1.660156 -1.339844 -3 -3 -3 z m 0 2 h 10 c 0.554688 0 1 0.445312 1 1 v 7 c 0 0.554688 -0.445312 1 -1 1 h -10 c -0.554688 0 -1 -0.445312 -1 -1 v -7 c 0 -0.554688 0.445312 -1 1 -1 z m 2 12 c -1.105469 0 -2 0.894531 -2 2 h 10 c 0 -1.105469 -0.894531 -2 -2 -2 z m 0 0"/>
   </g>
 
@@ -31,16 +47,18 @@
       font-size="15"
       font-weight="900"
       letter-spacing="0.5"
-      fill="#ffaa00"
+      fill="#22c55e"
       y="30">
 
-      <tspan>Unstop Selection Assessment Done  &#9670;  Results in 1-2 Weeks (Unstop &amp; Amazon Congratulations Mail)  &#9670;  Top 3,000 of 30K Selected  &#9670;&#9670;&#9670;  Amazon MLSS Assessment Done  &#9670;  Results in 1-2 Weeks (Unstop &amp; Congratulations Email)  &#9670;  Top 3,000 of 30K Selected  &#9670;&#9670;&#9670;  </tspan>
+      <tspan>
+        Amazon ML Summer School 2026 Results Declared &#9670; Selection Emails Sent by Amazon &amp; Unstop &#9670; Program Commences on 11 July 2026 &#9670;&#9670;&#9670; Amazon ML Summer School 2026 Results Declared &#9670; Selection Emails Sent by Amazon &amp; Unstop &#9670; Program Commences on 11 July 2026 &#9670;&#9670;&#9670;
+      </tspan>
 
       <animateTransform
         attributeName="transform"
         type="translate"
         from="800,0"
-        to="-1650,0"
+        to="-1700,0"
         dur="20s"
         repeatCount="indefinite"/>
     </text>
